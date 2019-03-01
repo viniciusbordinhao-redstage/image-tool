@@ -1,0 +1,13 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": "^1.24",
+        "symfony/console": "^4.2",
+        "symfony/dependency-injection": "^4.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "Redstage\\Downloader\\": "app/code/Redstage/Downloader"
+        }
+    }
+}
